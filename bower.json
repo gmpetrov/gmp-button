@@ -1,0 +1,26 @@
+{
+  "name": "angular-gmp-button",
+  "version": "0.0.0",
+  "description": "Sweet button",
+  "main": "gmp-button.js",
+  "keywords": [
+    "button",
+    "directive",
+    "angular"
+  ],
+  "authors": [
+    "Georges Petrov"
+  ],
+  "license": "MIT",
+  "homepage": "test.fr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+      "angular" : "~1.3.0"
+  }
+}

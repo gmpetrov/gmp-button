@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="logo.gif">
-</p>
-
 ### gmp-button, Angular directive
 Sweet button wrapped in an angular directive
 

@@ -19,7 +19,7 @@ gulp.task('partials', function () {
       quotes: true
     }))
     .pipe($.angularTemplatecache('templateCacheHtml.js', {
-      module: 'testCssAnim'
+      module: 'gmp-button'
     }))
     .pipe(gulp.dest(paths.tmp + '/partials/'));
 });

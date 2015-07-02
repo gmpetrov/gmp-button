@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('testCssAnim')
+angular.module('gmp-button')
   .controller('NavbarCtrl', function ($scope) {
     $scope.date = new Date();
   });

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('testCssAnim')
+angular.module('gmp-button')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       {

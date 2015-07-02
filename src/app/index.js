@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('testCssAnim', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'mm.foundation', 'gmp.gmp-button'])
+angular.module('gmp-button', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'mm.foundation', 'gmp.gmp-button'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {

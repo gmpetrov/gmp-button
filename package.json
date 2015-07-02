@@ -1,0 +1,29 @@
+{
+  "name": "angular-gmp-button",
+  "version": "0.0.0",
+  "description": "Sweet Button",
+  "main": "gmp-button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmpetrov/gmp-button.git"
+  },
+  "keywords": [
+    "sweet",
+    "button",
+    "angular",
+    "directive"
+  ],
+  "author": "Georges Petrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmpetrov/gmp-button/issues"
+  },
+  "homepage": "https://github.com/gmpetrov/gmp-button",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0"
+  }
+}

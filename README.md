@@ -25,7 +25,7 @@ var app = angular.module("demoapp", ["gmp.gmp-button"]);
 
 ## Usage
 
-'<gmp-button>Hello</gmp-button>'
+\<gmp-button>Hello\</gmp-button>
 
 ## License
 

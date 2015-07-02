@@ -1,29 +1,4 @@
 <style type="text/css">
-  .container{
-  }
-
-  .test{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background: #0f0;
-/*  left: 0px;
-top: 0px;*/
-
--webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
--moz-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
--o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
-
-
-/* Chrome, Safari, Opera */
--webkit-animation-name: land;
--webkit-animation-duration: 2s;
--webkit-animation-delay: 2s;
--webkit-animation-iteration-count: 1;
--webkit-animation-direction: alternate;
--webkit-animation-play-state: running;
-}
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes land {
@@ -87,48 +62,19 @@ h2{
   100% {background: #e74c3c; left:0px; top:0px;}
 }
 
-/* Standard syntax */
-@keyframes myfirst {
-  0%   {background: #8e44ad; left:0px; top:0px;}
-  25%  {background: #d35400; left:200px; top:0px;}
-  50%  {background: #2980b9; left:200px; top:200px;}
-  75%  {background: #16a085; left:0px; top:200px;}
-  100% {background: #e74c3c; left:0px; top:0px;}
-}
+/*/!* Standard syntax *!/*/
+/*@keyframes myfirst {*/
+  /*0%   {background: #8e44ad; left:0px; top:0px;}*/
+  /*25%  {background: #d35400; left:200px; top:0px;}*/
+  /*50%  {background: #2980b9; left:200px; top:200px;}*/
+  /*75%  {background: #16a085; left:0px; top:200px;}*/
+  /*100% {background: #e74c3c; left:0px; top:0px;}*/
+/*}*/
 
 
 .site-wrap h1{
   color: #fff;
   /*min-height: 500px;*/
-}
-
-#sqare{
-  width: 50px;
-  height: 50px;
-  background-color: pink;
-  color: #fff;
-  text-align: center;
-  /*margin: 0 auto;*/
-  -webkit-transition: all 500ms cubic-bezier(0.345, 0, 0.500, 1); /* older webkit */
-  -webkit-transition: all 500ms cubic-bezier(0.345, -0.405, 0.500, 1.650);
-  -moz-transition: all 500ms cubic-bezier(0.345, -0.405, 0.500, 1.650);
-  -o-transition: all 500ms cubic-bezier(0.345, -0.405, 0.500, 1.650);
-  transition: all 500ms cubic-bezier(0.345, -0.405, 0.500, 1.650); /* custom */
-
-  -webkit-transition-timing-function: cubic-bezier(0.345, 0, 0.500, 1); /* older webkit */
-  -webkit-transition-timing-function: cubic-bezier(0.345, -0.405, 0.500, 1.650);
-  -moz-transition-timing-function: cubic-bezier(0.345, -0.405, 0.500, 1.650);
-  -o-transition-timing-function: cubic-bezier(0.345, -0.405, 0.500, 1.650);
-  transition-timing-function: cubic-bezier(0.345, -0.405, 0.500, 1.650); /* custom */
-}
-
-.my_button:hover + #sqare{
-  width: 300px;
-  height: 300px;
-  background: rgba(22, 160, 133,1.0);
-  border-radius: 100%;
-  font-size: 50px;
-  margin-left: 38%;
 }
 
 .site-wrap{
@@ -159,14 +105,12 @@ window.addEventListener("resize", function(){
 
 <div class="site-wrap">
   <div class="header">
-    <!-- <div class="test"></div> -->
-    <h2>HELLO, I'AM</h2>
+    <h2>HELLO, I AM</h2>
     <div class="myRow">
       <gmp-button>Sweet</gmp-button>
       <gmp-button>And</gmp-button>
       <gmp-button>Colored</gmp-button>
     </div>
-    <!-- <div id="sqare">hello</div> -->
   </div>
 
 </div>

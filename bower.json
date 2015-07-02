@@ -12,7 +12,7 @@
     "Georges Petrov"
   ],
   "license": "MIT",
-  "homepage": "test.fr",
+  "homepage": "https://github.com/gmpetrov/gmp-button",
   "ignore": [
     "**/.*",
     "node_modules",

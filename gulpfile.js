@@ -1,8 +1,16 @@
-var gulp = require('gulp'),
-    addTemplates = require('gulp-angular-templatecache');
+'use strict';
 
-gulp.task('default', function() {
-    gulp.src('gmp-button-template.html')
-        .pipe(addTemplates('templateFile.js', {module: 'gmp.gmp-button' }))
-        .pipe(gulp.dest('dist'));
+var gulp = require('gulp');
+
+gulp.paths = {
+  src: 'src',
+  dist: 'dist',
+  tmp: '.tmp',
+  e2e: 'e2e'
+};
+
+require('require-dir')('./gulp');
+
+gulp.task('default', ['clean'], function () {
+    gulp.start('build');
 });

@@ -1,26 +1,23 @@
 {
-  "name": "angular-gmp-button",
-  "version": "0.0.1",
-  "description": "Sweet button",
-  "main": "gmp-button.js",
-  "keywords": [
-    "button",
-    "directive",
-    "angular"
-  ],
-  "authors": [
-    "Georges Petrov"
-  ],
-  "license": "MIT",
-  "homepage": "test.fr",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies" : {
-      "angular" : "~1.3.0"
+  "name": "testCssAnim",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-animate": "~1.3.4",
+    "angular-cookies": "~1.3.4",
+    "angular-touch": "~1.3.4",
+    "angular-sanitize": "~1.3.4",
+    "angular-ui-router": "~0.2.13",
+    "foundation": "~5.4.7",
+    "angular-foundation": "~0.5.1",
+    "angular": "~1.3.4",
+    "jquery": "~2.1.3",
+    "gmp-button": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.4",
+    "gmp-button": "*"
+  },
+  "resolutions": {
+    "angular": "~1.3.4"
   }
 }
